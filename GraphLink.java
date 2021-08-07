@@ -78,4 +78,11 @@ public class GraphLink<E> {
 			}
 		}
 	}
+	
+	public static void grafoIncluido(GraphLink<?> A, GraphLink<?> B) {
+		String cadenaGrafoA = A.toString();
+		System.out.println(A);
+		String cadenaGrafoB = B.toString();
+		System.out.println(B);
+	}
 }
