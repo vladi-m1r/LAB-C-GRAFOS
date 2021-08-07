@@ -9,6 +9,9 @@ public class Test {
 		mapGrafos.insertEdge("AQP", "Trujillo");
 		mapGrafos.insertEdge("Trujillo", "Lima");
 		
+		mapGrafos.DFS("AQP");
+		System.out.println(mapGrafos);
+		
 		GraphLink<String> mapGrafos2 = new GraphLink<String>();
 		mapGrafos2.insertVertex("AQP");
 		mapGrafos2.insertVertex("Lima");
